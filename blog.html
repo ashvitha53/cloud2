@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with-device-width, initial-scale=1.0">
+        <title>University Website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+    </head>
+<body>
+      <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img\logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li> 
+
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1> Our Courses & Online Programs for 2024</h1>
+
+      </section>
+<!-------blog content page-->
+<section class="blog-content">
+    <div class="blog-left">
+        <img src="eduford_img/certificate.jpg" >
+        <h2> Our Certificate & Online Programs for 2024</h2>
+        <p>"Embark on a journey of knowledge and skill acquisition with our diverse range of Certificate and Online Programs for 2021. Elevate your expertise, advance your career, and embrace the future of learning with our innovative and industry-aligned educational offerings."</p>
+<br>
+        <p>"Embark on a journey of knowledge and skill acquisition with our diverse range of Certificate and Online Programs for 2021. Elevate your expertise, advance your career, and embrace the future of learning with our innovative and industry-aligned educational offerings."</p>
+<br>
+<p>"Embark on a journey of knowledge and skill acquisition with our diverse range of Certificate and Online Programs for 2021. Elevate your expertise, advance your career, and embrace the future of learning with our innovative and industry-aligned educational offerings."</p>
+ 
+<div class=""comment-box">
+    <h3> Leave a comment</h3>
+    <form class="comment-form">
+        <input type="text" placeholder="enter name">
+        <input type="email" placeholder="enter email">
+        <textarea rows="5" placeholder="your comment"></textarea>
+        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+    </form>
+
+    
+</div>
+
+<!--------         
+    </div>
+    <div class="blog-right"></div>
+    <h3> Post Categories</h3>
+    <div>
+        <span>Business Analytics</span>
+        <span>21</span>
+    </div>
+    <div>
+        <span>Data science</span>
+        <span>21</span>
+    </div>
+    <div>
+        <span>Cyber Security</span>
+        <span>21</span>
+    </div>
+    <div>
+        <span>Cloud Computing</span>
+        <span>21</span>
+    </div>      ------>
+
+
+
+</section>
+
+
+<!----footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>"Discover the heart of our institution through the 'About Us' section, where our <br>rich history, mission, and values converge to shape an inspiring educational journey for all."</p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-linkedin" ></i>
+
+    </div>
+
+</section>
+
+
+  
+
+<!--js for toggle menu----->
+<script>
+    var navLinks=document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    
+</script>
+</body>
+</html>
